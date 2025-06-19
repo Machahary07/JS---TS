@@ -6,3 +6,5 @@ function greet(person) {
 }
 
 console.log(greet(name));
+
+//works👍
