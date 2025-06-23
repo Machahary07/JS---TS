@@ -10,8 +10,8 @@ var expect = function(val) {
         }
     };
 };
-expect(10).toBe(10);         // returns true
-expect("hello").notToBe("hi"); // returns true
-
-expect(5).toBe(6);           // throws Error: "Not Equal"
-expect(true).notToBe(true);  // throws Error: "Equal"
+console.log(expect(10).toBe(10));        // returns true
+console.log(expect("hello").notToBe("hi")); // returns true
+// 
+// console.log(expect(5).toBe(6));          // throws Error: "Not Equal"
+console.log(expect(true).notToBe(true));  // throws Error: "Equal"
