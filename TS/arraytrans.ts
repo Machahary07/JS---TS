@@ -5,3 +5,6 @@ function map(arr: number[], fn: (n: number, i: number) => number): number[] {
     }
     return result;
 };
+
+function plusTwo(n) { return n + 2; }
+console.log(map([1, 2, 3], plusTwo));
